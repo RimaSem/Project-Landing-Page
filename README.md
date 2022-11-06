@@ -1,2 +1,3 @@
-# Project-Landing-Page
-For the Odin Project - Foundations Course
+# Landing Page
+
+A practice project from 'The Odin Project - Foundations Course' curriculum.
