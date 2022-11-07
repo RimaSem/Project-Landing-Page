@@ -26,6 +26,10 @@ a {
   gap: 24px;
 }
 
+a:hover {
+  color: hsl(220, 24%, 88%);
+}
+
 .logo {
   font-size: 24px;
   color: #f9faf8;
@@ -140,4 +144,38 @@ a {
   font-weight: bold;
   font-size: 18px;
   text-align: right;
+}
+
+.container.content-4 {
+  padding: 70px 180px;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 40px 100px;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.but-2 {
+  border: 2px solid #e5e7eb;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.but-1:hover,
+.but-2:hover {
+  cursor: pointer;
+  background-color: #7aadff;
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
 }
