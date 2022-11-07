@@ -46,17 +46,19 @@ a:hover {
   color: #e5e7eb;
 }
 
+.footer div {
+  flex-shrink: 0;
+}
+
 .container.content-1 {
   display: flex;
   padding: 100px 200px;
   background-color: #1f2937;
   color: #e5e7eb;
-  gap: 40px;
-  flex: 1;
+  gap: 60px;
 }
 
 .intro {
-  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -66,15 +68,10 @@ a:hover {
   color: hsl(220, 13%, 75%);
 }
 
-.image {
-  background-color: rgba(240, 248, 255, 0.3);
-  padding: 30px;
-  flex: 1;
-  text-align: center;
-}
-
-.image.img-text {
-  color: white;
+img {
+  height: 250px;
+  width: auto;
+  border-radius: 8px;
 }
 
 .intro-header {
@@ -91,6 +88,7 @@ a:hover {
   border: none;
   border-radius: 8px;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .container.content-2 {
@@ -98,6 +96,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .random-info {
@@ -110,6 +109,8 @@ a:hover {
 .mini-container {
   display: flex;
   gap: 65px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .img-txt {
@@ -163,6 +164,7 @@ a:hover {
   border: 2px solid #e5e7eb;
   background-color: #3882f6;
   color: #e5e7eb;
+  font-size: larger;
   padding: 8px 30px;
   border-radius: 8px;
   font-weight: bold;
@@ -176,6 +178,6 @@ a:hover {
 }
 
 span {
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: bolder;
+  font-size: 24px;
 }
